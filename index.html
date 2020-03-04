@@ -5,15 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Form</title>
     <script defer src="./app.js"></script>
+    <link rel="stylesheet" href="/styles/main.css" />
   </head>
   <body>
     <form class="form" id="form" action="/" method="GET">
       <div class="form__name">
-        <label for="name">Name</label>
+        <label class="form__nameLabel" for="name">Name:</label>
         <input type="text" id="name" name="name" />
       </div>
       <div class="form__password">
-        <label for="name">Password</label>
+        <label class="form__passwordLabel" for="name">Password:</label>
         <input type="password" id="password" name="password" />
       </div>
       <button class="form__submit" type="submit">Submit</button>
