@@ -5,7 +5,7 @@
           box-sizing: border-box;
 }
 
-body {
+.container {
   height: 100vh;
   width: 100%;
   background: radial-gradient(white, #d7faff);
@@ -51,8 +51,12 @@ body {
           justify-content: space-between;
 }
 
-.form__nameLabel, .form__passwordLabel {
+.form__label {
   padding: 10px;
+}
+
+.form__input {
+  margin-right: 10px;
 }
 
 .form__submit {
@@ -71,7 +75,6 @@ body {
 }
 
 .error {
-  position: absolute;
-  bottom: 100px;
+  margin-top: 20px;
 }
 /*# sourceMappingURL=main.css.map */
